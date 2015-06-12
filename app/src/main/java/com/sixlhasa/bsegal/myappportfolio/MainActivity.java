@@ -38,6 +38,8 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    // Adapted from http://developer.android.com/guide/topics/ui/notifiers/toasts.html and
+    // http://developer.android.com/guide/topics/ui/controls/button.html#HandlingEvents
     public void onClick(View myview) {
         String s = "This button will launch my " + ((Button) myview).getText();
         Toast.makeText(getApplicationContext(),s,Toast.LENGTH_LONG).show();
