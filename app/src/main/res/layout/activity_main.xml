@@ -60,6 +60,6 @@
         android:id="@+id/button6"
         android:layout_below="@+id/button5"
         android:textColor="#FFFFFF"
-        android:background="#F44336"
+        android:background="@color/red"
         />
 </LinearLayout>
